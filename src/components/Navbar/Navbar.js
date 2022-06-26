@@ -5,7 +5,7 @@ import { faTree} from '@fortawesome/free-solid-svg-icons'
 
 import React from 'react';
 import "./Navbar.scss";
-import {Link} from 'react-router-dom';
+
 import tree from '../img/tree.svg';
 
 
@@ -27,7 +27,7 @@ const Navbar = () => {
 <div className='Menu'>
     <div className='Menu-list'>
        <ul>
-        <a href=""><li className='active'>Accueil</li></a>
+        <a href="#/"><li className='active'>Accueil</li></a>
         <a href="#Agency"><li>Agence</li></a>
         <a href="#realization"><li>Nos réalisation</li></a>
         <li>Nos prestations</li>

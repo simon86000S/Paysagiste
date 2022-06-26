@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
-import { Routes, Route} from "react-router-dom";
 import Landing from '../Landing/Landing';
 
 

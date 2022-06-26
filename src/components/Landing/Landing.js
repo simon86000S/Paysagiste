@@ -11,10 +11,19 @@ import massif1 from '../img/massif69.jpg';
 import massif2 from '../img/colonne.jpg';
 import {FaChevronCircleUp} from 'react-icons/fa';
 
+
+
+
+
+
+
 const Landing = () => {
+
+
+    
   return (
     <div className="Container">
-        <div style={{position:"relative"}} className="cursor"><span><FaChevronCircleUp style={{color:"green",position:"absolute",top:"10%",width:"100px",left:"-50%",height:"50px"}}/></span></div>
+       <a href='/'> <div  style={{position:"relative"}} className="cursor"><span><FaChevronCircleUp style={{color:"green",position:"absolute",top:"10%",width:"100px",left:"-50%",height:"50px"}}/></span></div></a>
       <div className="background">
         <img style={{ width: "100%" }} src={forest}></img>
         <div className="title-concept">
@@ -160,7 +169,7 @@ Savoir-faire : le dessin manuel, l’illustration, la conception et l’agenceme
       </div>
       <div className="realization-container">
         <div id="realization">
-            <h1>Nos réalisation</h1>
+            <h1>Nos réalisations</h1>
         </div>
         <div className="items-content-img">
         <div class="div1">
