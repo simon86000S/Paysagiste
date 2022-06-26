@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
+
+.container {
+  height: 200px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.814);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+font-family: "Poppins", sans-serif;
+  .Header {
+    
+    cursor: pointer;
+  }
+  .title {
+    color: rgb(157, 143, 125);
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+  .title-first {
+    text-align: center;
+    color: rgb(70, 165, 70);
+  }
+}
+.Menu {
+  ul {
+    display: flex;
+    .active {
+      color: green;
+    }
+    a {
+      text-decoration: none;
+    }
+    li {
+      margin: 0 25px;
+      text-transform: uppercase;
+      color: white;
+      font-size: 15px;
+      font-weight: 900;
+      &:hover {
+        color: green;
+        cursor: pointer;
+        transition: 1s ease-out;
+      }
+    }
+  }
+  .items {
+    position: absolute;
+
+    top: 0;
+    right: 0;
+
+    .list-items {
+      display: flex;
+      div {
+        &:hover {
+          transform: scale(0.8);
+          transition: 0.5s ease-in-out;
+          cursor: pointer;
+        }
+      }
+
+      &:last-child {
+        margin-right: 50px;
+      }
+
+      .facebook {
+        color: white;
+        background-color: rgb(70, 165, 70);
+        padding: 10px;
+        margin-right: 12px;
+        position: relative;
+        &:hover {
+          &::before {
+            content: "facebook";
+            position: absolute;
+            left:0;
+            bottom: -15px;
+          }
+        }
+      }
+      .LinkeIn {
+        color: white;
+        background-color: rgb(70, 165, 70);
+        padding: 10px;
+        margin-right: 12px;
+        &:hover {
+          &::before {
+            content: "LinkeIn";
+            position: absolute;
+            bottom: -15px;
+            left:0;
+          }
+        }
+      }
+      .twitter {
+        color: white;
+        background-color: rgb(70, 165, 70);
+        padding: 10px;
+        margin-right: 12px;
+        &:hover {
+          &::before {
+            content: "Twitter";
+            position: absolute;
+            bottom: -15px;
+            left:0;
+          }
+        }
+      }
+      .instagram {
+        color: white;
+        background-color: rgb(70, 165, 70);
+        padding: 10px;
+        margin-right: 12px;
+
+        &:hover {
+          &::before {
+            content: "instagram";
+            position: absolute;
+            bottom: -15px;
+            left:0;
+          }
+        }
+      }
+    }
+  }
+}
