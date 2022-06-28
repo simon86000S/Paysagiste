@@ -171,17 +171,17 @@ Savoir-faire : le dessin manuel, l’illustration, la conception et l’agenceme
         <div id="realization">
             <h1>Nos réalisations</h1>
         </div>
-        <div className="items-content-img">
+        <div style={{display:'flex'}} className="items-content-img">
         <div class="div1">
               {" "}
-              <img style={{ width: "50%" }} src={massif1}></img>
+              <img style={{ width: "80%",height:'50%' }} src={massif1}></img>
             </div>
             <div class="div2">
               {" "}
-              <img style={{ width: "50%" }} src={massif2}></img>
+              <img style={{ width: "80%",height:'50%' }} src={massif2}></img>
             </div>
             <div class="div3">
-              <img style={{ width: "50%" }} src={architecte}></img>{" "}
+              <img style={{ width: "50%" }}  src={architecte}></img>{" "}
             </div>
             <div class="div4">
               {" "}
