@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Paysagiste/static/css/main.3b34f17f.css",
-    "main.js": "/Paysagiste/static/js/main.e24a22cd.js",
+    "main.css": "/Paysagiste/static/css/main.bd171118.css",
+    "main.js": "/Paysagiste/static/js/main.d2dfc921.js",
     "static/js/787.34f4fdcc.chunk.js": "/Paysagiste/static/js/787.34f4fdcc.chunk.js",
     "static/media/forest.jpg": "/Paysagiste/static/media/forest.62f890689275ce0b0e25.jpg",
     "static/media/massif69.jpg": "/Paysagiste/static/media/massif69.1f5ed5b06aaee38c62dd.jpg",
@@ -19,6 +19,7 @@
     "static/media/paysage5.jpeg": "/Paysagiste/static/media/paysage5.23c8f29ee5ec86bb95c2.jpeg",
     "static/media/tree.svg": "/Paysagiste/static/media/tree.6084758788cd0c3d964ea3cca7f2f11c.svg",
     "static/media/jungle3.jpg": "/Paysagiste/static/media/jungle3.649909ff546b48aaaa4d.jpg",
+    "static/media/rosace.svg": "/Paysagiste/static/media/rosace.19c562a59739a270e7d5f59cf77fea94.svg",
     "static/media/jungle8.jpg": "/Paysagiste/static/media/jungle8.c9b00325f8b04cc7c87c.jpg",
     "static/media/jungle7.jpg": "/Paysagiste/static/media/jungle7.0a05e9926ec1a9ea8222.jpg",
     "static/media/paysagiste.jpg": "/Paysagiste/static/media/paysagiste.711d5f1fac011642c6ec.jpg",
@@ -32,12 +33,12 @@
     "static/media/jungle9.jpg": "/Paysagiste/static/media/jungle9.e0f3ea8e03ffb7fb938e.jpg",
     "static/media/jungle11.jpg": "/Paysagiste/static/media/jungle11.19f1e5f11fa180eb9f05.jpg",
     "index.html": "/Paysagiste/index.html",
-    "main.3b34f17f.css.map": "/Paysagiste/static/css/main.3b34f17f.css.map",
-    "main.e24a22cd.js.map": "/Paysagiste/static/js/main.e24a22cd.js.map",
+    "main.bd171118.css.map": "/Paysagiste/static/css/main.bd171118.css.map",
+    "main.d2dfc921.js.map": "/Paysagiste/static/js/main.d2dfc921.js.map",
     "787.34f4fdcc.chunk.js.map": "/Paysagiste/static/js/787.34f4fdcc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b34f17f.css",
-    "static/js/main.e24a22cd.js"
+    "static/css/main.bd171118.css",
+    "static/js/main.d2dfc921.js"
   ]
 }
