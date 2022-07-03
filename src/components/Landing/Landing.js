@@ -10,6 +10,28 @@ import simon from '../img/simon.jpg';
 import massif1 from '../img/massif69.jpg';
 import massif2 from '../img/colonne.jpg';
 import {FaChevronCircleUp} from 'react-icons/fa';
+import jungle1 from '../img/jungle1.jpg';
+import jungle3 from '../img/jungle3.jpg';
+import jungle4 from '../img/jungle4.jpg';
+import jungle5 from '../img/jungle5.jpg';
+import jungle6 from '../img/jungle6.jpg';
+import jungle7 from '../img/jungle7.jpg';
+import jungle8 from '../img/jungle8.jpg';
+import jungle9 from '../img/jungle9.jpg';
+import jungle10 from '../img/jungle10.jpg';
+import jungle11 from '../img/jungle11.jpg';
+import simon1 from '../img/simon1.jpg';
+import simon3 from '../img/simon3.jpg';
+import paysage1 from '../img/paysage1.jpg';
+import paysage2 from '../img/paysage2.jpg';
+import paysage3 from '../img/paysage3.jpg';
+import paysage4 from '../img/paysage4.jpg';
+import paysage5 from '../img/paysage5.jpeg';
+import paysage6 from '../img/paysage6.jpg';
+
+
+
+
 
 
 
@@ -40,106 +62,106 @@ const Landing = () => {
           <div className="left">
             <div class="div1">
               {" "}
-              <img style={{ width: "100%" }} src={architecte}></img>
+              <img style={{ width: "100%",borderRadius:"50%" }} src={jungle}></img>
             </div>
             <div class="div2">
               {" "}
-              <img style={{ width: "100%" }} src={jungle}></img>
+              <img style={{ width: "100%",borderRadius:"50%" }} src={jungle3}></img>
             </div>
             <div class="div3">
-              <img style={{ width: "100%" }} src={paysagiste}></img>{" "}
+              <img style={{ width: "100%",borderRadius:"50%" }} src={jungle1}></img>{" "}
             </div>
             <div class="div4">
               {" "}
-              <img style={{ width: "100%" }} src={architecte}></img>
+              <img style={{ width: "100%",borderRadius:"50%" }} src={paysagiste}></img>
             </div>
             <div class="div5">
-              <img style={{ width: "100%" }} src={architecte}></img>{" "}
+              <img style={{ width: "100%",borderRadius:"50%" }} src={jungle5}></img>{" "}
             </div>
             <div class="div6">
               {" "}
-              <img style={{ width: "100%" }} src={architecte}></img>
+              <img style={{ width: "100%",borderRadius:"50%"  }} src={jungle6}></img>
             </div>
             <div class="div7">
               {" "}
-              <img style={{ width: "100%" }} src={architecte}></img>
+              <img style={{ width: "100%",borderRadius:"50%" }} src={jungle}></img>
             </div>
             <div class="div8">
               {" "}
-              <img style={{ width: "100%" }} src={architecte}></img>
+              <img style={{ width: "100%",borderRadius:"50%"  }} src={jungle8}></img>
             </div>
             <div class="div9">
               {" "}
-              <img style={{ width: "100%" }} src={architecte}></img>
+              <img style={{ width: "100%",borderRadius:"50%" }} src={jungle9}></img>
             </div>
             <div class="div10">
-              <img style={{ width: "100%" }} src={architecte}></img>{" "}
+              <img style={{ width: "100%",borderRadius:"50%" }} src={jungle10}></img>{" "}
             </div>
             <div class="div11">
               {" "}
-              <img style={{ width: "100%" }} src={architecte}></img>
+              <img style={{ width: "100%",borderRadius:"50%" }} src={jungle11}></img>
             </div>
             <div class="div12">
               {" "}
-              <img style={{ width: "100%" }} src={architecte}></img>
+              <img style={{ width: "100%",borderRadius:"50%" }} src={architecte}></img>
             </div>
           </div>
           <div className="separate">
-          <img style={{ width: "100%",height:"100%" }} src={tree2}></img>
+          <img className="image-back" style={{ width: "100%",height:"100%" }} src={tree2}></img>
             <span></span>
           </div>
 
           <div className="right">
             <div class="div1">
               {" "}
-              <img style={{ width: "100%" }} src={architecte}></img>
+              <img style={{ width: "100%",borderRadius:"50%" }} src={paysage1}></img>
             </div>
             <div class="div2">
               {" "}
-              <img style={{ width: "100%" }} src={architecte}></img>
+              <img style={{ width: "100%",borderRadius:"50%" }} src={paysage2}></img>
             </div>
             <div class="div3">
-              <img style={{ width: "100%" }} src={architecte}></img>{" "}
+              <img style={{ width: "100%",borderRadius:"50%" }} src={paysage3}></img>{" "}
             </div>
             <div class="div4">
               {" "}
-              <img style={{ width: "100%" }} src={architecte}></img>
+              <img style={{ width: "100%",borderRadius:"50%" }} src={paysage4}></img>
             </div>
             <div class="div5">
-              <img style={{ width: "100%" }} src={architecte}></img>{" "}
+              <img style={{ width: "100%",borderRadius:"50%" }} src={paysage5}></img>{" "}
             </div>
             <div class="div6">
               {" "}
-              <img style={{ width: "100%" }} src={architecte}></img>
+              <img style={{ width: "100%",borderRadius:"50%" }} src={paysage6}></img>
             </div>
             <div class="div7">
               {" "}
-              <img style={{ width: "100%" }} src={architecte}></img>
+              <img style={{ width: "100%",borderRadius:"50%" }} src={architecte}></img>
             </div>
             <div class="div8">
               {" "}
-              <img style={{ width: "100%" }} src={architecte}></img>
+              <img style={{ width: "100%",borderRadius:"50%" }} src={architecte}></img>
             </div>
             <div class="div9">
               {" "}
-              <img style={{ width: "100%" }} src={architecte}></img>
+              <img style={{ width: "100%",borderRadius:"50%" }} src={architecte}></img>
             </div>
             <div class="div10">
-              <img style={{ width: "100%" }} src={architecte}></img>{" "}
+              <img style={{ width: "100%",borderRadius:"50%" }} src={architecte}></img>{" "}
             </div>
             <div class="div11">
               {" "}
-              <img style={{ width: "100%" }} src={architecte}></img>
+              <img style={{ width: "100%",borderRadius:"50%" }} src={architecte}></img>
             </div>
             <div class="div12">
               {" "}
-              <img style={{ width: "100%" }} src={architecte}></img>
+              <img style={{ width: "100%",borderRadius:"50%" }} src={architecte}></img>
             </div>
           </div>
         </div>
       </div>
       <div className="text">
-      <p><h1>En 2011, concept Paysage c’est la rencontre de deux amis<br></br> qui voulaient en aider un troisième…</h1>
+      <p style={{marginTop:'92px'}}><h1>En 2011, concept Paysage c’est la rencontre de deux amis<br></br> qui voulaient en aider un troisième…</h1>
 
 Aujourd’hui nous sommes toujours deux passionnés qui aimons être surpris par de belles rencontres humaines et par le partage d’expérience. <br></br> A chaque moment de convivialité autour de la création et de la réalisation d’un jardin nous nous enrichissons du savoir-faire de nos entreprises partenaires. <br></br> Nous sommes à l’écoute des souhaits de nos clients pour leur proposer un jardin unique à la hauteur de leurs ambitions et de leurs rêves.
 </p>
@@ -168,59 +190,145 @@ Savoir-faire : le dessin manuel, l’illustration, la conception et l’agenceme
 </div>
       </div>
       <div className="realization-container">
+     
         <div id="realization">
-            <h1>Nos réalisations</h1>
+        <h1>Nos réalisations</h1>
+            <nav>
+              <ul>
+                <li><a href='#plan'plan3 d>Plan3d</a></li>
+                <li><a href='#create'creation>Plan3d</a></li>
+                <li><a href='#'plan3 d>Plan3d</a></li>
+              </ul>
+            </nav>
+         
         </div>
-        <div style={{display:'flex'}} className="items-content-img">
-        <div class="div1">
+       <div  className="background-side">
+        <div style={{display:"flex"}}  className="items-content-img">
+        <div id='plan' class="div1">
               {" "}
-              <img style={{ width: "80%",height:'50%' }} src={massif1}></img>
+              <img style={{ width: "100%",height:'100%' }} src={jungle3}></img>
             </div>
             <div class="div2">
               {" "}
-              <img style={{ width: "80%",height:'50%' }} src={massif2}></img>
+              <img style={{ width: "120%",height:'100%' }} src={jungle1}></img>
             </div>
             <div class="div3">
-              <img style={{ width: "50%" }}  src={architecte}></img>{" "}
+              <img style={{ width: "100%",height:'100%' }} src={paysagiste}></img>{" "}
             </div>
             <div class="div4">
               {" "}
-              <img style={{ width: "50%" }} src={architecte}></img>
+              <img style={{ width: "100%",height:'100%' }} src={jungle4}></img>
             </div>
             <div class="div5">
-              <img style={{ width: "50%" }} src={architecte}></img>{" "}
+              <img style={{ width: "100%",height:'100%' }} src={jungle5}></img>{" "}
             </div>
             <div class="div6">
               {" "}
-              <img style={{ width: "50%" }} src={architecte}></img>
+              <img style={{ width: "100%",height:'100%'  }} src={jungle6}></img>
             </div>
             <div class="div7">
               {" "}
-              <img style={{ width: "50%" }} src={architecte}></img>
+              <img style={{ width: "100%",height:'100%' }} src={jungle}></img>
             </div>
             <div class="div8">
               {" "}
-              <img style={{ width: "50%" }} src={architecte}></img>
+              <img style={{ width: "100%",height:'100%' }} src={jungle8}></img>
             </div>
             <div class="div9">
               {" "}
-              <img style={{ width: "50%" }} src={architecte}></img>
+              <img style={{ width: "100%",height:'100%'}} src={jungle9}></img>
             </div>
             <div class="div10">
-              <img style={{ width: "50%" }} src={architecte}></img>{" "}
+              <img style={{ width: "100%",height:'100%'}} src={jungle10}></img>{" "}
             </div>
-            <div class="div11">
+      
+            </div>  
+            </div>
+              
+        <div style={{display:'flex'}} className="items-content-img2">
+        <div id='plan' class="div1">
               {" "}
-              <img style={{ width: "50%" }} src={architecte}></img>
+              <img style={{ width: "100%",height:'100%' }} src={jungle3}></img>
             </div>
-            <div class="div12">
+            <div class="div2">
               {" "}
-              <img style={{ width: "50%" }} src={architecte}></img>
+              <img style={{ width: "120%",height:'100%' }} src={jungle1}></img>
             </div>
+            <div class="div3">
+              <img style={{ width: "100%",height:'100%' }} src={paysagiste}></img>{" "}
+            </div>
+            <div class="div4">
+              {" "}
+              <img style={{ width: "100%",height:'100%' }} src={jungle4}></img>
+            </div>
+            <div class="div5">
+              <img style={{ width: "100%",height:'100%' }} src={jungle5}></img>{" "}
+            </div>
+            <div class="div6">
+              {" "}
+              <img style={{ width: "100%",height:'100%'  }} src={jungle6}></img>
+            </div>
+            <div class="div7">
+              {" "}
+              <img style={{ width: "100%",height:'100%' }} src={jungle}></img>
+            </div>
+            <div class="div8">
+              {" "}
+              <img style={{ width: "100%",height:'100%' }} src={jungle8}></img>
+            </div>
+            <div class="div9">
+              {" "}
+              <img style={{ width: "100%",height:'100%'}} src={jungle9}></img>
+            </div>
+            <div class="div10">
+              <img style={{ width: "100%",height:'100%'}} src={jungle10}></img>{" "}
+            </div>
+      
+            </div>  
+              
+        <div style={{display:'flex'}} className="items-content-img3">
+        <div id='plan' class="div1">
+              {" "}
+              <img style={{ width: "100%",height:'100%' }} src={jungle3}></img>
+            </div>
+            <div class="div2">
+              {" "}
+              <img style={{ width: "120%",height:'100%' }} src={jungle1}></img>
+            </div>
+            <div class="div3">
+              <img style={{ width: "100%",height:'100%' }} src={paysagiste}></img>{" "}
+            </div>
+            <div class="div4">
+              {" "}
+              <img style={{ width: "100%",height:'100%' }} src={jungle4}></img>
+            </div>
+            <div class="div5">
+              <img style={{ width: "100%",height:'100%' }} src={jungle5}></img>{" "}
+            </div>
+            <div class="div6">
+              {" "}
+              <img style={{ width: "100%",height:'100%'  }} src={jungle6}></img>
+            </div>
+            <div class="div7">
+              {" "}
+              <img style={{ width: "100%",height:'100%' }} src={jungle}></img>
+            </div>
+            <div class="div8">
+              {" "}
+              <img style={{ width: "100%",height:'100%' }} src={jungle8}></img>
+            </div>
+            <div class="div9">
+              {" "}
+              <img style={{ width: "100%",height:'100%'}} src={jungle9}></img>
+            </div>
+            <div class="div10">
+              <img style={{ width: "100%",height:'100%'}} src={jungle10}></img>{" "}
+            </div>
+      
+            </div>  
             </div>
 </div>
 
-</div>
    
 
   );
