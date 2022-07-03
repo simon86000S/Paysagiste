@@ -10,6 +10,7 @@ import simon from '../img/simon.jpg';
 import massif1 from '../img/massif69.jpg';
 import massif2 from '../img/colonne.jpg';
 import {FaChevronCircleUp} from 'react-icons/fa';
+import rosace from '../img/rosace.svg';
 import jungle1 from '../img/jungle1.jpg';
 import jungle3 from '../img/jungle3.jpg';
 import jungle4 from '../img/jungle4.jpg';
@@ -47,7 +48,10 @@ const Landing = () => {
     <div className="Container">
        <a href='/'> <div  style={{position:"relative"}} className="cursor"><span><FaChevronCircleUp style={{color:"green",position:"absolute",top:"10%",width:"100px",left:"-50%",height:"50px"}}/></span></div></a>
       <div className="background">
-        <img style={{ width: "100%" }} src={forest}></img>
+        <img style={{ width: "100%",position:"relative" }} src={forest}></img>
+        <div>
+          <img  className='rosace'style={{width:'50%', height:'50%',position:"absolute",top:'5%',left:'25%',backfaceVisibility:"none"}} src={rosace}></img>
+        </div>
         <div className="title-concept">
           <h2>Paysagiste concepteur</h2>
         </div>

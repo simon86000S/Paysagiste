@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 1685.9011 1686.0868" version="1.1" viewBox="0 0 1685.9011 1686.0868">
-<rect width="1685.9" height="1686.1"/>
-<g fill="none">
+
+<g  fill="none"  >
 	<g stroke="url(#b)" stroke-width="6">
 		<radialGradient id="b" cx="842.95" cy="843.04" r="801.78" gradientUnits="userSpaceOnUse">
 			<stop stop-color="#221C0F" offset="0"/>
