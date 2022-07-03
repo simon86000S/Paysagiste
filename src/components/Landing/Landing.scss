@@ -3,6 +3,7 @@
 .Container {
   position: relative;
   font-family: "Poppins", sans-serif;
+  
   .cursor{
 position: absolute;
    
@@ -32,10 +33,7 @@ position: absolute;
   }
   .background {
     position: relative;
-.rosace{
-  animation:rotateRosace 12s infinite alternate-reverse
 
-}
     h2 {
       position: absolute;
       top: 50%;

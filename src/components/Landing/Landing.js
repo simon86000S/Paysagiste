@@ -6,11 +6,12 @@ import jungle from "../img/jungle.jpg";
 import paysagiste from "../img/paysagiste.jpg";
 import tree2 from "../img/tree2.svg";
 import "./Landing.scss";
-import simon from "../img/simon.jpg";
+
+import simon4 from '../img/simon4.jpg';
 import massif1 from "../img/massif69.jpg";
 import massif2 from "../img/colonne.jpg";
 import { FaChevronCircleUp } from "react-icons/fa";
-import rosace from "../img/rosace.svg";
+
 import jungle1 from "../img/jungle1.jpg";
 import jungle3 from "../img/jungle3.jpg";
 import jungle4 from "../img/jungle4.jpg";
@@ -29,6 +30,7 @@ import paysage3 from "../img/paysage3.jpg";
 import paysage4 from "../img/paysage4.jpg";
 import paysage5 from "../img/paysage5.jpeg";
 import paysage6 from "../img/paysage6.jpg";
+import paysage7 from "../img/paysage7.jpg";
 
 const Landing = () => {
   return (
@@ -53,18 +55,7 @@ const Landing = () => {
       <div className="background">
         <img style={{ width: "100%", position: "relative" }} src={forest}></img>
         <div>
-          <img
-            className="rosace"
-            style={{
-              width: "50%",
-              height: "50%",
-              position: "absolute",
-              top: "5%",
-              left: "25%",
-              backfaceVisibility: "none",
-            }}
-            src={rosace}
-          ></img>
+         
         </div>
         <div className="title-concept">
           <h2>Paysagiste concepteur</h2>
@@ -214,7 +205,7 @@ const Landing = () => {
               {" "}
               <img
                 style={{ width: "100%", borderRadius: "50%" }}
-                src={architecte}
+                src={paysage7}
               ></img>
             </div>
             <div class="div8">
@@ -271,7 +262,7 @@ const Landing = () => {
       </div>
       <div className="personal-presentation ">
         <div className="photo">
-          <img src={simon}></img>
+          <img src={simon4}></img>
         </div>
 
         <div className="text-personal">
