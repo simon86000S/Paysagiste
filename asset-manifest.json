@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Paysagiste/static/css/main.53af68f0.css",
-    "main.js": "/Paysagiste/static/js/main.f1783acb.js",
+    "main.css": "/Paysagiste/static/css/main.14d8207c.css",
+    "main.js": "/Paysagiste/static/js/main.ec6ef1f5.js",
     "static/js/787.34f4fdcc.chunk.js": "/Paysagiste/static/js/787.34f4fdcc.chunk.js",
     "static/media/forest.jpg": "/Paysagiste/static/media/forest.62f890689275ce0b0e25.jpg",
     "static/media/massif69.jpg": "/Paysagiste/static/media/massif69.1f5ed5b06aaee38c62dd.jpg",
     "static/media/simon1.jpg": "/Paysagiste/static/media/simon1.0c452a7f59b70e9d3487.jpg",
+    "static/media/simon4.jpg": "/Paysagiste/static/media/simon4.1cc13aeab33b0dea5b33.jpg",
     "static/media/simon3.jpg": "/Paysagiste/static/media/simon3.c0bf4a024bfa7688f875.jpg",
     "static/media/tree2.svg": "/Paysagiste/static/media/tree2.e282273876c2d7a1a30006f336926b44.svg",
     "static/media/paysage6.jpg": "/Paysagiste/static/media/paysage6.75facf5d39eb333bcd4c.jpg",
     "static/media/architecte.jpg": "/Paysagiste/static/media/architecte.b12a6c1c104bca09c160.jpg",
-    "static/media/simon.jpg": "/Paysagiste/static/media/simon.2f75bb41b1093392e7cd.jpg",
     "static/media/paysage1.jpg": "/Paysagiste/static/media/paysage1.2834bcd5880bb34c851a.jpg",
     "static/media/paysage2.jpg": "/Paysagiste/static/media/paysage2.5e85c198a9413ec28f6c.jpg",
     "static/media/paysage4.jpg": "/Paysagiste/static/media/paysage4.b23651b799d0bf20e95b.jpg",
@@ -22,6 +22,7 @@
     "static/media/rosace.svg": "/Paysagiste/static/media/rosace.19c562a59739a270e7d5f59cf77fea94.svg",
     "static/media/jungle8.jpg": "/Paysagiste/static/media/jungle8.c9b00325f8b04cc7c87c.jpg",
     "static/media/jungle7.jpg": "/Paysagiste/static/media/jungle7.0a05e9926ec1a9ea8222.jpg",
+    "static/media/paysage7.jpg": "/Paysagiste/static/media/paysage7.dbb367cba0295dfc95e6.jpg",
     "static/media/paysagiste.jpg": "/Paysagiste/static/media/paysagiste.711d5f1fac011642c6ec.jpg",
     "static/media/jungle1.jpg": "/Paysagiste/static/media/jungle1.87444bc84e46fd74a58f.jpg",
     "static/media/jungle5.jpg": "/Paysagiste/static/media/jungle5.debb3bfffa2d9c8b441e.jpg",
@@ -33,12 +34,12 @@
     "static/media/jungle9.jpg": "/Paysagiste/static/media/jungle9.e0f3ea8e03ffb7fb938e.jpg",
     "static/media/jungle11.jpg": "/Paysagiste/static/media/jungle11.19f1e5f11fa180eb9f05.jpg",
     "index.html": "/Paysagiste/index.html",
-    "main.53af68f0.css.map": "/Paysagiste/static/css/main.53af68f0.css.map",
-    "main.f1783acb.js.map": "/Paysagiste/static/js/main.f1783acb.js.map",
+    "main.14d8207c.css.map": "/Paysagiste/static/css/main.14d8207c.css.map",
+    "main.ec6ef1f5.js.map": "/Paysagiste/static/js/main.ec6ef1f5.js.map",
     "787.34f4fdcc.chunk.js.map": "/Paysagiste/static/js/787.34f4fdcc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.53af68f0.css",
-    "static/js/main.f1783acb.js"
+    "static/css/main.14d8207c.css",
+    "static/js/main.ec6ef1f5.js"
   ]
 }
