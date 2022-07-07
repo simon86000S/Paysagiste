@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState,Fragment} from "react";
 import forest from "../img/forest.jpg";
 import ciel from "../img/ciel.svg";
 import architecte from "../img/architecte.jpg";
@@ -7,7 +7,7 @@ import paysagiste from "../img/paysagiste.jpg";
 import tree2 from "../img/tree2.svg";
 import "./Landing.scss";
 
-import simon4 from '../img/simon4.jpg';
+import simon4 from "../img/simon4.jpg";
 import massif1 from "../img/massif69.jpg";
 import massif2 from "../img/colonne.jpg";
 import { FaChevronCircleUp } from "react-icons/fa";
@@ -33,8 +33,16 @@ import paysage6 from "../img/paysage6.jpg";
 import paysage7 from "../img/paysage7.jpg";
 
 const Landing = () => {
+  
+  
+
+
+
+
+
   return (
     <div className="Container">
+  
       <a href="/">
         {" "}
         <div style={{ position: "relative" }} className="cursor">
@@ -54,198 +62,42 @@ const Landing = () => {
       </a>
       <div className="background">
         <img style={{ width: "100%", position: "relative" }} src={forest}></img>
-        <div>
-         
-        </div>
+        <div></div>
         <div className="title-concept">
           <h2>Paysagiste concepteur</h2>
         </div>
       </div>
 
       <div className="main">
-        <div id="Agency">
+        <div  id="Agency">
           <h1 className="title-agency">AGENCE</h1>
           <p>Votre jardin entre nos mains d'expert</p>
         </div>
         <div className="wrapper">
-          <div className="left">
-            <div class="div1">
-              {" "}
-              <img
-                style={{ width: "100%", borderRadius: "50%" }}
-                src={jungle}
-              ></img>
-            </div>
-            <div class="div2">
-              {" "}
-              <img
-                style={{ width: "100%", borderRadius: "50%" }}
-                src={jungle3}
-              ></img>
-            </div>
-            <div class="div3">
-              <img
-                style={{ width: "100%", borderRadius: "50%" }}
-                src={jungle1}
-              ></img>{" "}
-            </div>
-            <div class="div4">
-              {" "}
-              <img
-                style={{ width: "100%", borderRadius: "50%" }}
-                src={paysagiste}
-              ></img>
-            </div>
-            <div class="div5">
-              <img
-                style={{ width: "100%", borderRadius: "50%" }}
-                src={jungle5}
-              ></img>{" "}
-            </div>
-            <div class="div6">
-              {" "}
-              <img
-                style={{ width: "100%", borderRadius: "50%" }}
-                src={jungle6}
-              ></img>
-            </div>
-            <div class="div7">
-              {" "}
-              <img
-                style={{ width: "100%", borderRadius: "50%" }}
-                src={jungle}
-              ></img>
-            </div>
-            <div class="div8">
-              {" "}
-              <img
-                style={{ width: "100%", borderRadius: "50%" }}
-                src={jungle8}
-              ></img>
-            </div>
-            <div class="div9">
-              {" "}
-              <img
-                style={{ width: "100%", borderRadius: "50%" }}
-                src={jungle9}
-              ></img>
-            </div>
-            <div class="div10">
-              <img
-                style={{ width: "100%", borderRadius: "50%" }}
-                src={jungle10}
-              ></img>{" "}
-            </div>
-            <div class="div11">
-              {" "}
-              <img
-                style={{ width: "100%", borderRadius: "50%" }}
-                src={jungle11}
-              ></img>
-            </div>
-            <div class="div12">
-              {" "}
-              <img
-                style={{ width: "100%", borderRadius: "50%" }}
-                src={architecte}
-              ></img>
-            </div>
+          <div className="content-img">
+          <img style={{left:"5px",top:"95px"}} src={jungle1}/>
+          <img style={{right:"0px",bottom:"50px"}} src={jungle5}/>
+          <img style={{top:"-90px"}} src={jungle3}/>
+          <img style={{top:"5px",left:'50%',opacity:".5"}} src={jungle4}/>
+          <img style={{bottom:"150px",right:'70%',opacity:".5"}} src={jungle5}/>
+          <img style={{left:"0px",bottom:"50px"}} src={jungle6}/>
+          <img style={{top:"102px",right:"50px"}} src={jungle7}/>
+          <img style={{bottom:"150px",right:"50px"}} src={jungle9}/>
+          <img style={{top:"-80px",right:"25px"}} src={jungle10}/>
+          <img style={{top:"-90px",right:"155px"}} src={jungle11}/>
+          <img style={{bottom:"90px",right:"155px",opacity:".5"}} src={massif1}/>
+          <img style={{bottom:"370px",left:"5px"}} src={massif2}/>
+          <img style={{bottom:"265px",left:"150px"}} src={massif2}/>
+          <img style={{bottom:"5px",left:"240px",opacity:".5"}} src={paysage1}/>
           </div>
-          <div className="separate">
-            <img
-              className="image-back"
-              style={{ width: "100%", height: "100%" }}
-              src={tree2}
-            ></img>
-            <span></span>
           </div>
-
-          <div className="right">
-            <div class="div1">
-              {" "}
-              <img
-                style={{ width: "100%", borderRadius: "50%" }}
-                src={paysage1}
-              ></img>
-            </div>
-            <div class="div2">
-              {" "}
-              <img
-                style={{ width: "100%", borderRadius: "50%" }}
-                src={paysage2}
-              ></img>
-            </div>
-            <div class="div3">
-              <img
-                style={{ width: "100%", borderRadius: "50%" }}
-                src={paysage3}
-              ></img>{" "}
-            </div>
-            <div class="div4">
-              {" "}
-              <img
-                style={{ width: "100%", borderRadius: "50%" }}
-                src={paysage4}
-              ></img>
-            </div>
-            <div class="div5">
-              <img
-                style={{ width: "100%", borderRadius: "50%" }}
-                src={paysage5}
-              ></img>{" "}
-            </div>
-            <div class="div6">
-              {" "}
-              <img
-                style={{ width: "100%", borderRadius: "50%" }}
-                src={paysage6}
-              ></img>
-            </div>
-            <div class="div7">
-              {" "}
-              <img
-                style={{ width: "100%", borderRadius: "50%" }}
-                src={paysage7}
-              ></img>
-            </div>
-            <div class="div8">
-              {" "}
-              <img
-                style={{ width: "100%", borderRadius: "50%" }}
-                src={architecte}
-              ></img>
-            </div>
-            <div class="div9">
-              {" "}
-              <img
-                style={{ width: "100%", borderRadius: "50%" }}
-                src={architecte}
-              ></img>
-            </div>
-            <div class="div10">
-              <img
-                style={{ width: "100%", borderRadius: "50%" }}
-                src={architecte}
-              ></img>{" "}
-            </div>
-            <div class="div11">
-              {" "}
-              <img
-                style={{ width: "100%", borderRadius: "50%" }}
-                src={architecte}
-              ></img>
-            </div>
-            <div class="div12">
-              {" "}
-              <img
-                style={{ width: "100%", borderRadius: "50%" }}
-                src={architecte}
-              ></img>
-            </div>
-          </div>
+      <div className="img-background-tree">
+        <img src={tree2}/></div> 
         </div>
-      </div>
-      <div className="text">
+        
+  
+    
+        <div className="text">
         <p style={{ marginTop: "92px" }}>
           <h1>
             En 2011, concept Paysage c’est la rencontre de deux amis<br></br>{" "}
@@ -291,62 +143,44 @@ const Landing = () => {
       <div className="realization-container">
         <div id="realization">
           <h1>Nos réalisations</h1>
-          <nav>
+          <nav >
             <ul>
               <li>
-                <a href="#plan" plan3 d>
-                  Plan3d
-                </a>
+                <a href="#plan" >PLAN 3D</a>
+               
+                
               </li>
               <li>
                 <a href="#img-container" creation>
-                  Plan3d
+                  CONCEPTION
                 </a>
               </li>
               <li>
                 <a href="#" plan3 d>
-                  Plan3d
+                  CROQUIS
                 </a>
               </li>
             </ul>
           </nav>
         </div>
         <div className="background-side">
-          <div className="items-content-img">
-            <div id="plan">
-            <img src={jungle3}></img>
-            <img src={jungle1}></img>
-            <img src={paysagiste}></img>
-            <img src={jungle4}></img>
-            <img src={jungle5}></img>
-            <img src={jungle6}></img>
-            <img src={jungle}></img>
-            </div>
-            <div id="img-container">
-            <img src={jungle8}></img>
-            <img src={jungle9}></img>
-            <img src={jungle10}></img>
-            <img src={jungle3}></img>
-            <img src={jungle1}></img>
-            <img src={paysagiste}></img>
-             <img src={jungle4}></img>
-             </div>
-            <img src={jungle5}></img> 
-            <img src={jungle6}></img>
+      
+        <div className="items-content-img">
+        <img src={paysage2}></img>
+        <img src={paysage3}></img>
+        <img src={paysage4}></img>
+        <img src={paysage5}></img>
+        <img src={paysage6}></img>
+        <img src={paysage7}></img>
+        </div>
+
+      
+       </div>
            
-            <img src={jungle}></img> <img src={jungle8}></img>{" "}
-            <img src={jungle9}></img>
-            <img src={jungle10}></img>
-            <img src={jungle3}></img> <img src={jungle1}></img>
-            <img src={paysagiste}></img> <img src={jungle4}></img>
-            <img src={jungle5}></img>
-            <img src={jungle6}></img> <img src={jungle}></img>{" "}
-            <img src={jungle8}></img> <img src={jungle9}></img>
-            <img src={jungle10}></img>{" "}
           </div>
         </div>
-      </div>
-    </div>
+    
+  
   );
 };
 

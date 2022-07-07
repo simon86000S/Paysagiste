@@ -23,8 +23,8 @@ const Navbar = () => {
             style={{
               position:"absolute",
              top:'75px',
-             left:"140px",
-             zIndex:"-2",
+             left:"150px",
+      
 
               width: "80%",
               height: "80%",
@@ -40,11 +40,12 @@ const Navbar = () => {
             style={{
               position:"absolute",
              top:'75px',
-             left:"-50px",
-             zIndex:"-2",
+             left:"-20px",
+           
 
               width: "80%",
               height: "80%",
+              
         
              
             }}
