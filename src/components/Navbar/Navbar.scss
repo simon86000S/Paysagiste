@@ -140,3 +140,46 @@ font-family: "Poppins", sans-serif;
     transform: rotate(360deg);
   }
 }
+
+/*small phone 470px*/
+@media screen and (max-width: 320px){
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    .rosace{
+      display: none;
+    }
+    .title{
+     text-align: center;
+    }
+    .Menu{
+      .list-items:last-child{
+    margin-right: 22px;
+      }
+    }
+    .Menu-list{
+      ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        li{
+
+        
+          margin:0 5px;
+          font-size: 12px;
+          
+        }
+      }
+    }
+  }
+ 
+.title-first{
+ text-align: center;
+ margin-top:65px ;
+ font-size: 35px;
+}
+
+
+}

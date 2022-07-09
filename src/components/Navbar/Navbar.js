@@ -60,13 +60,13 @@ const Navbar = () => {
        <ul>
         <a href="#/"><li className='active'>Accueil</li></a>
         <a href="#Agency"><li>Agence</li></a>
-        <a href="#realization"><li>Nos réalisation</li></a>
+        <a href="#realization"><li>Nos réalisations</li></a>
         <li>Nos prestations</li>
         <li>Notre actualités</li>
         <li>Nos Partenaires</li>
-        <li>Nos Contact</li>
+        <li>Nos Contacts</li>
         
-        </ul> 
+        </ul>  
     </div>
     <div className='items'>
  <div className='list-items'>

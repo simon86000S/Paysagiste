@@ -75,20 +75,7 @@ const Landing = () => {
         </div>
         <div className="wrapper">
           <div className="content-img">
-          <img style={{left:"5px",top:"95px"}} src={jungle1}/>
-          <img style={{right:"0px",bottom:"50px"}} src={jungle5}/>
-          <img style={{top:"-90px"}} src={jungle3}/>
-          <img style={{top:"5px",left:'50%',opacity:".5"}} src={jungle4}/>
-          <img style={{bottom:"150px",right:'70%',opacity:".5"}} src={jungle5}/>
-          <img style={{left:"0px",bottom:"50px"}} src={jungle6}/>
-          <img style={{top:"102px",right:"50px"}} src={jungle7}/>
-          <img style={{bottom:"150px",right:"50px"}} src={jungle9}/>
-          <img style={{top:"-80px",right:"25px"}} src={jungle10}/>
-          <img style={{top:"-90px",right:"155px"}} src={jungle11}/>
-          <img style={{bottom:"90px",right:"155px",opacity:".5"}} src={massif1}/>
-          <img style={{bottom:"370px",left:"5px"}} src={massif2}/>
-          <img style={{bottom:"265px",left:"150px"}} src={massif2}/>
-          <img style={{bottom:"5px",left:"240px",opacity:".5"}} src={paysage1}/>
+          
           </div>
           </div>
       <div className="img-background-tree">
