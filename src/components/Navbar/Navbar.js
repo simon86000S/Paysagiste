@@ -19,12 +19,14 @@ const Navbar = () => {
   const closeMenu=()=>{
     menu.current.style.transform = "translate3d(1000%,-20px,0)";
     span.current.style.display = "flex";
+    menu.current.style.transition ="2s ease"
   
 
   }
   const showMenu = () => {
     menu.current.style.transform = "translate3d(10%,-20px,0)";
     span.current.style.display = "none";
+    menu.current.style.transition ="1s ease"
   };
 
   return (

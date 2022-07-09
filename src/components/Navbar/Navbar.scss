@@ -190,8 +190,10 @@
         width: 200px;
         
         .burger-close{
+          
           &:hover{
             cursor:pointer;
+            
           }
           span{
             height: 5px;
