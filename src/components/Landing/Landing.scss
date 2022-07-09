@@ -182,18 +182,22 @@ line-height: 1.9;
     }
   }
   }
-  .background-side  {
+ 
     
-   
+.background-side{
     .items-content-img{
     margin-top:15px;
       display: flex;
+      flex-direction: row;
+      justify-content: center;
       flex-wrap: wrap;
       padding:5px 10px;
       
       img{
-        width: 50%;
+        width: 30%;
+        
         padding:5px 10px;
+        background:black;
 
         &:hover{
           cursor: pointer;
@@ -212,9 +216,20 @@ line-height: 1.9;
         }
        
        
-        
+      }
       }
     }
   }
+
 }
+
+/*small phone 470px*/
+@media screen and (max-width: 320px) {
+  .Container{
+    .title-concept{
+      h2{
+        font-size: 37px;
+      }
+    }
+  }
 }

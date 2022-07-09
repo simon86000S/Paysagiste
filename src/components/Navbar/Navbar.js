@@ -16,21 +16,27 @@ import tree from "../img/tree.svg";
 const Navbar = () => {
   const menu = useRef();
   const span = useRef();
+  const conteneur=useRef()
   const closeMenu=()=>{
-    menu.current.style.transform = "translate3d(1000%,-20px,0)";
+    menu.current.style.transform = "translate3d(-1000%,0px,0)";
     span.current.style.display = "flex";
-    menu.current.style.transition ="2s ease"
+    menu.current.style.transition =".6s ease";
+    
+    conteneur.current.style.height='250px'
+    
   
 
   }
   const showMenu = () => {
-    menu.current.style.transform = "translate3d(10%,-20px,0)";
+    menu.current.style.transform = "translate3d(-16%,-11px,0)";
     span.current.style.display = "none";
-    menu.current.style.transition ="1s ease"
+    menu.current.style.transition =" transform .6s ease"
+ conteneur.current.style.height='350px'
+ 
   };
 
   return (
-    <div className="container">
+    <div ref={conteneur} className="container">
       <div style={{ position: "relative" }} className="Header">
         <div className="header-title">
           <img

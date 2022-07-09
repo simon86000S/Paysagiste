@@ -9,6 +9,7 @@
   align-items: center;
   position: sticky;
   font-family: "Poppins", sans-serif;
+  position: sticky;
   .rosace {
     animation: rotateRosace 12s infinite alternate-reverse;
   }
@@ -140,12 +141,12 @@
   }
 }
 
-/*small phone 470px*/
+/*small phone 320px*/
 @media screen and (max-width: 320px) {
   .container {
     display: flex;
     flex-direction: column;
-    height: 350px;
+    height: 250px;
     .rosace {
       display: none;
     }
@@ -153,6 +154,7 @@
       text-align: center;
     }
     .Menu {
+      
       .burger {
         padding: 10px;
         span {
@@ -177,10 +179,11 @@
         }
       }
       .list-items:last-child {
-        margin-right: 22px;
+        margin-right: -5px;
       }
     }
     .Menu-list {
+     
       ul {
         display: flex;
         flex-direction: column;
@@ -188,6 +191,7 @@
         transform: translateX(-1000%);
         background-color: #020000;
         width: 200px;
+        padding:0 12px;
         
         .burger-close{
           
@@ -215,6 +219,7 @@
         li {
           margin: 0 5px;
           font-size: 12px;
+          padding:2px 0;
         }
       }
     }

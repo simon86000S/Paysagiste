@@ -1,4 +1,4 @@
-import React,{useState,Fragment} from "react";
+import React,{useState,Fragment, useRef} from "react";
 import forest from "../img/forest.jpg";
 import ciel from "../img/ciel.svg";
 import architecte from "../img/architecte.jpg";
@@ -31,9 +31,10 @@ import paysage4 from "../img/paysage4.jpg";
 import paysage5 from "../img/paysage5.jpeg";
 import paysage6 from "../img/paysage6.jpg";
 import paysage7 from "../img/paysage7.jpg";
+import { cpanel } from "fontawesome";
 
 const Landing = () => {
-  
+ 
   
 
 
@@ -130,29 +131,11 @@ const Landing = () => {
       <div className="realization-container">
         <div id="realization">
           <h1>Nos réalisations</h1>
-          <nav >
-            <ul>
-              <li>
-                <a href="#plan" >PLAN 3D</a>
-               
-                
-              </li>
-              <li>
-                <a href="#img-container" creation>
-                  CONCEPTION
-                </a>
-              </li>
-              <li>
-                <a href="#" plan3 d>
-                  CROQUIS
-                </a>
-              </li>
-            </ul>
-          </nav>
+         
         </div>
         <div className="background-side">
       
-        <div className="items-content-img">
+        <div  className="items-content-img">
         <img src={paysage2}></img>
         <img src={paysage3}></img>
         <img src={paysage4}></img>
@@ -160,7 +143,6 @@ const Landing = () => {
         <img src={paysage6}></img>
         <img src={paysage7}></img>
         </div>
-
       
        </div>
            
