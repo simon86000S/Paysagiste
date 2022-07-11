@@ -32,6 +32,7 @@ import paysage5 from "../img/paysage5.jpeg";
 import paysage6 from "../img/paysage6.jpg";
 import paysage7 from "../img/paysage7.jpg";
 import { cpanel } from "fontawesome";
+import bambou from '../img/bambou.svg';
 
 const Landing = () => {
  
@@ -72,6 +73,7 @@ const Landing = () => {
       <div className="main">
         <div  id="Agency">
           <h1 className="title-agency">AGENCE</h1>
+          <img className="bambou" src={bambou}></img>
           <p>Votre jardin entre nos mains d'expert</p>
         </div>
       
@@ -81,6 +83,7 @@ const Landing = () => {
        <div className="circle-page">
 <img src={circle}></img>
 <img src={circle}></img>
+
 
        </div>
         <img src={tree2}/></div> 
@@ -95,7 +98,7 @@ const Landing = () => {
         <p style={{ marginTop: "92px" }}>
           <h1>
             En 2011, concept Paysage c’est la rencontre de deux amis<br></br>{" "}
-            qui voulaient en aider un troisième…
+            qui ont monté leur entreprise.
           </h1>
           Aujourd’hui nous sommes toujours deux passionnés qui aimons être
           surpris par de belles rencontres humaines et par le partage
@@ -117,11 +120,12 @@ const Landing = () => {
           </div>
           <p>
             Ceinture noire du crayon de bois et de la tablette graphique,
-            conceptrice d’espace à vivre Diplômée de l’école Nationale
-            supérieure de la nature et du Paysage de Blois après un bac
-            scientifique, Lucie s’oriente dans la conception paysagère d’espaces
+            conceptrice d’espace à vivre Diplômée d'un BP aménagement Paysagé 
+            à Charolles après une formation à L'AFPA 
+            de niveau V.
+            Simon s’oriente dans la conception paysagère d’espaces
             publics. Forte d’une expérience de 15 ans dans des grands bureaux
-            d’étude Lyonnais elle franchit le pas en 2013 pour mettre son talent
+            d’étude à Poitiers. iL franchit le pas en 2013 pour mettre son talent
             au service des jardins de particuliers, une échelle tout aussi
             complexe et passionnante. J’aime le contact humain que l’on peut
             avoir avec les particuliers, le challenge de les faire rêver et le
