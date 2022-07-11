@@ -24,12 +24,23 @@ position: absolute;
     }
   }
   @keyframes rotateRosace{
+    
     0%{
-      transform: rotate(0deg);
+      transform: rotate(360deg);
     }
     100%{
       transform: rotate(360deg);
     }
+  }
+  @keyframes rotate{
+    from{
+      transform: rotate(0deg);
+    }
+    to{
+      transform: rotate(800deg);
+    }
+   
+   
   }
   .background {
     position: relative;
@@ -47,16 +58,29 @@ position: absolute;
   /*Agency background tree and several image presentation*/
   .main {
    position: relative;
-    .wrapper{
+   .img-background-tree{
+    position: relative;
+    .circle-page{
       img{
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        position: absolute;
-        z-index:-5;
-      animation: circle 15s infinite alternate-reverse;
+        animation:rotate 4s infinite alternate ;
+        
+        &:nth-child(1){
+          position: absolute;
+          top:50%;
+          right:10%;
+        }
+        &:nth-child(2){
+          position: absolute;
+          top:50%;
+          left:10%;
+          
+        }
       }
+      
     }
+
+}
+   
     @keyframes circle {
       from{
         width: 100px;
@@ -92,7 +116,7 @@ position: absolute;
           background-color: black;
         }
       }
-   }
+      }
  }
   .text{
     padding:15px 15px;

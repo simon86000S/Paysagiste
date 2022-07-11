@@ -7,14 +7,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: sticky;
   font-family: "Poppins", sans-serif;
-  position: sticky;
+ 
   .rosace {
     animation: rotateRosace 12s infinite alternate-reverse;
   }
   .Header {
     cursor: pointer;
+    
   }
   .title {
     color: rgb(157, 143, 125);
@@ -147,6 +147,7 @@
     display: flex;
     flex-direction: column;
     height: 250px;
+   
     .rosace {
       display: none;
     }
@@ -157,7 +158,10 @@
       
       .burger {
         padding: 10px;
+        
         span {
+       
+        
           height: 5px;
           background-color: white;
           width: 30px;
@@ -179,7 +183,7 @@
         }
       }
       .list-items:last-child {
-        margin-right: -5px;
+        margin-right: 5px;
       }
     }
     .Menu-list {

@@ -20,7 +20,7 @@ const Navbar = () => {
   const closeMenu=()=>{
     menu.current.style.transform = "translate3d(-1000%,0px,0)";
     span.current.style.display = "flex";
-    menu.current.style.transition =".6s ease";
+    menu.current.style.transition =".6s ease-in";
     
     conteneur.current.style.height='250px'
     

@@ -1,6 +1,6 @@
 import React,{useState,Fragment, useRef} from "react";
 import forest from "../img/forest.jpg";
-import ciel from "../img/ciel.svg";
+import circle from "../img/circle.svg";
 import architecte from "../img/architecte.jpg";
 import jungle from "../img/jungle.jpg";
 import paysagiste from "../img/paysagiste.jpg";
@@ -74,14 +74,20 @@ const Landing = () => {
           <h1 className="title-agency">AGENCE</h1>
           <p>Votre jardin entre nos mains d'expert</p>
         </div>
-        <div className="wrapper">
-          <div className="content-img">
-          
-          </div>
-          </div>
+      
+      
+       
       <div className="img-background-tree">
+       <div className="circle-page">
+<img src={circle}></img>
+<img src={circle}></img>
+
+       </div>
         <img src={tree2}/></div> 
+
+         
         </div>
+       
         
   
     
