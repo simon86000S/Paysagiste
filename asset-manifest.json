@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Paysagiste/static/css/main.851be812.css",
-    "main.js": "/Paysagiste/static/js/main.0a5cc220.js",
+    "main.css": "/Paysagiste/static/css/main.a9a45e14.css",
+    "main.js": "/Paysagiste/static/js/main.84d8c0fb.js",
     "static/js/787.34f4fdcc.chunk.js": "/Paysagiste/static/js/787.34f4fdcc.chunk.js",
     "static/media/forest.jpg": "/Paysagiste/static/media/forest.62f890689275ce0b0e25.jpg",
     "static/media/massif69.jpg": "/Paysagiste/static/media/massif69.1f5ed5b06aaee38c62dd.jpg",
@@ -35,12 +35,12 @@
     "static/media/bambou.svg": "/Paysagiste/static/media/bambou.eeb15ccc0df43db5f9703235b9a1ce14.svg",
     "static/media/circle.svg": "/Paysagiste/static/media/circle.8cece84eb4fe98dfa802d38bbfdec6fb.svg",
     "index.html": "/Paysagiste/index.html",
-    "main.851be812.css.map": "/Paysagiste/static/css/main.851be812.css.map",
-    "main.0a5cc220.js.map": "/Paysagiste/static/js/main.0a5cc220.js.map",
+    "main.a9a45e14.css.map": "/Paysagiste/static/css/main.a9a45e14.css.map",
+    "main.84d8c0fb.js.map": "/Paysagiste/static/js/main.84d8c0fb.js.map",
     "787.34f4fdcc.chunk.js.map": "/Paysagiste/static/js/787.34f4fdcc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.851be812.css",
-    "static/js/main.0a5cc220.js"
+    "static/css/main.a9a45e14.css",
+    "static/js/main.84d8c0fb.js"
   ]
 }
