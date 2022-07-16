@@ -23,15 +23,7 @@ position: absolute;
        
     }
   }
-  @keyframes rotateRosace{
-    
-    0%{
-      transform: rotate(360deg);
-    }
-    100%{
-      transform: rotate(360deg);
-    }
-  }
+
   @keyframes rotate{
     from{
       transform: rotate(0deg);
@@ -85,25 +77,13 @@ position: absolute;
 
 }
    
-    @keyframes circle {
-      from{
-        width: 100px;
-        height:100px
-      }
-      to{
-        width: 150px;
-        height:150px
-      }
-      
-    }
+
     
     #Agency {
       margin: 83px;
       text-align: center;
     
-     .bambou{
-      
-     }
+ 
 
       p {
         margin-top: 15px;
@@ -144,17 +124,7 @@ background-color: black;
            
 
         }
-       @keyframes changeColor{
-        0%{
-          opacity: 0.5;
-         
-          z-index: -2;
-        }
-        100%{
-opacity: 1;  
- ;
-z-index: -2;  }
-       }
+
     }
     
     .text-personal{
@@ -252,10 +222,32 @@ line-height: 1.9;
     }
   }
 
+  .Prestation{
+    
+
+    .title-presta{
+      position: relative;
+      text-align: center;
+      
+
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 60px;
+        height: 2px;
+        background-color: black;
+      }
+
+    }
+  }
+
 }
 
 /*small phone 470px*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .Container{
     .title-concept{
       h2{

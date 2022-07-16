@@ -6,12 +6,10 @@ import jungle from "../img/jungle.jpg";
 import paysagiste from "../img/paysagiste.jpg";
 import tree2 from "../img/tree2.svg";
 import "./Landing.scss";
-
 import simon4 from "../img/simon4.jpg";
 import massif1 from "../img/massif69.jpg";
 import massif2 from "../img/colonne.jpg";
 import { FaChevronCircleUp } from "react-icons/fa";
-
 import jungle1 from "../img/jungle1.jpg";
 import jungle3 from "../img/jungle3.jpg";
 import jungle4 from "../img/jungle4.jpg";
@@ -157,6 +155,13 @@ const Landing = () => {
        </div>
            
           </div>
+         <div className="Prestation">
+          <div className="title-presta">
+          <h1>Nos PRESTATIONS</h1>
+          </div>
+         
+
+         </div>
         </div>
     
   
